@@ -1,0 +1,110 @@
+.header__container{
+    display: flex;
+    flex-direction: column; 
+    top: 0px;
+    width: 100%;
+    height: 112px;
+    border-bottom: 1px solid #E6E6E6;
+
+    .header__container__small{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+    
+        .header__container__small__position{
+            display: flex;
+            align-items: center;
+            margin-left: 8%;
+            width: auto;
+            height: 100%;
+            bottom: 0;
+        
+            .header__container__small__position-svg{
+                margin-bottom: 1px;
+            }
+        
+            .header__container__small__position-text{
+                color: #1A1A1A;
+                margin-left: 8px;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+        }
+
+        .header__container__small__number{
+            display: flex;
+            align-items: center;
+            width: 273px;
+            height: 100%;
+            margin-right: 8%;
+
+            .header__container__small__number-svg{
+                margin-bottom: 1px;
+            }
+
+            .header__container__small__number-text{
+                color: #1A1A1A;
+                margin-left: 8px;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            .header__container__small__number-text:last-child{
+                margin-left: 40px;
+            }
+        }
+    }
+    .header__container__big{
+        display: flex;
+        justify-content: space-between;
+        height: 72px;
+        width: 100%;
+
+        .header__container__big__position{
+            margin-left: 8%;
+        }
+        .header__container__big__right{
+            display: flex;
+            align-items: center;
+            margin-right: 8%;
+            width: auto;
+            height: 100%;
+            .header__container__big__right-text{
+                color: #000000;
+                margin-right: 45px;
+                font-size: 16px;
+                font-weight: 600;
+                text-decoration: none
+            }
+            .header__container__big__right-textactive{
+                color: #D3875F;
+                margin-right: 45px;
+                font-size: 16px;
+                font-weight: 600;
+                text-decoration: none
+            }
+            
+            .header__container__big__right__block{
+                display: flex;
+                align-items: center;
+
+                .header__container__big__right__block-svg{
+                    margin-right: 25px;
+                }
+
+                .header__container__big__right__block-img{
+                    width: 30px;
+                    height: 30px;
+                    background-image: url('../../../public/images/ava.jpg');
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+
+    }
+
+}

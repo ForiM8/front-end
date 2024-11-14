@@ -1,0 +1,23 @@
+.container__back{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 16px;
+    
+    .container__back-svg{
+        margin-left: 7.86px;
+    }
+
+    .container__back-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 24px;
+        margin-left: 11.64px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #1a1a1a;
+    }
+}

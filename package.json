@@ -1,13 +1,22 @@
 {
-  "name": "test",
+  "name": "autandreg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "intl-tel-input": "^24.5.1",
+    "jquery": "^3.7.1",
+    "jquery-mask-plugin": "^1.14.16",
     "react": "^18.3.1",
+    "react-datepicker": "^7.4.0",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-modal": "^3.16.1",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

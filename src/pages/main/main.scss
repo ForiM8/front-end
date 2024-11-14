@@ -1,0 +1,109 @@
+.loading{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    top: 20%;
+    left: 40%;
+    width: 400px;
+    height: 600px;
+    background-color: #c97d7d;
+}
+.container{
+    
+
+    width: 100%;
+    height: 100%;
+    
+    .container__main{
+
+        width: 84%;
+        height: 100%;
+        margin: 0 auto;
+
+       
+
+        .container__main__main{
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            column-gap: 49.5px;
+            width: 100%;
+            height: 100%;
+         
+
+            .container__main__main__banner{
+                width: 280px;
+                height: 305px;
+       
+                margin: auto;
+                margin-bottom: 32px;
+
+                .container__main__main__banner-banner {
+                    max-width: 280px;
+                    max-height: 129px;
+                    width: 100%;
+                    height: 100%;
+                    gap: 8px;
+                    border-radius: 2px;
+                }
+            
+                .container__main__main__banner-title {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #1A1A1A;
+                    margin-top: 12px;
+                    margin-bottom: 4px;
+            
+                }
+            
+                .container__main__main__banner-description {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #1A1A1A;
+                    margin-bottom: 4px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+            
+                }
+            
+                .container__main__main__banner-end_date {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #666666;
+                    margin-bottom: 8px;
+                }
+            
+                .container__main__main__banner__location{
+                    display: flex;
+                    align-items: center;
+            
+                    .container__main__main__banner__location-punson{
+                        margin-bottom: 2px;
+                        margin-right: 4px;
+                    }
+                    .container__main__main__banner__location-country {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #666666;
+                    }
+                
+                    .container__main__main__banner__location-city {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #666666;
+                        margin-left: 3px;
+                    }
+                }
+            
+            }
+
+        }
+    }
+
+}
+
