@@ -49,7 +49,8 @@ export const Products = () => {
 
         <div className="container__products__header">
           <div className="container__products__header-text">Заметки</div>
-          <button onClick={addProduct} className="container__products__header-new_product" style={{ cursor: "pointer" }}>Новый продукт</button>
+          <button onClick={addProduct} className="container__products__header-new_product"
+           style={{ cursor: "pointer" }}>Новый продукт</button>
         </div>
 
         <div className="container__products__products">
@@ -88,41 +89,6 @@ export const Products = () => {
       </div>
     </div>
 
-    // <div>
-    //   <button onClick={addProduct}>Добавить продукт</button>
-    //   <span style={{ marginLeft: 16, fontSize: 20, fontWeight: 600 }}>
-    //     {products.length}
-    //   </span>
-    //   <div style={{ display: "flex", gap: 8, margin: "40px 20px" }}>
-    //     {products.map((product) => (
-    //       <CardProduct
-    //         {...product}
-    //         key={product.id}
-    //         name={product.title}
-    //         price={product.price}
-    //         onRemove={removeProduct}
-    //         onEdit={setIsEdit}
-    //       />
-    //     ))}
-    //   </div>
-    //   <CreateProduct
-    //     setProducts={setProducts}
-    //     onCloseModal={onCloseModal}
-    //     isModalOpen={isModalOpen}
-    //   />
-    //   {isEdit.status && (
-    //     <EditProduct
-    //       setProducts={setProducts}
-    //       onCloseModal={setIsEdit}
-    //       isModalOpen={isEdit.status}
-    //       initialValues={
-    //         products.filter((product) => product.id === isEdit.id)[0]
-    //       }
-    //       setIsEdit={setIsEdit}
-    //       id={isEdit.id}
-    //     />
-    //   )}
-    // </div>
   );
 
 

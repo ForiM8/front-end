@@ -54,7 +54,8 @@ export const CreateProduct = (props) => {
 
           <div className="modal__header" style={{ display: "flex", alignItems: "center",borderBottom:"solid 1px #E6E6E6" }}>
             <div className="madal__header-header">Новый продукт</div>
-            <div style={{ width: "40px", height: "40px", display: "flex", alignItems: "center", justifyContent: "center", cursor:'pointer' }}
+            <div style={{ width: "40px", height: "40px", display: "flex", alignItems: "center", 
+            justifyContent: "center", cursor:'pointer' }}
               onClick={() => {
                 onClose()
                 setErrorForm(false);
